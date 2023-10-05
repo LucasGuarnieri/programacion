@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Clase 2 - Formulario</title>
+</head>
+<body>
+    <div class="box">
+        <p>
+            Hola,
+            <span>
+                Lucas
+            </span>
+        </p>
+    </div>
+    <span class="red">
+        Como estas?
+    </span>
+    <br>
+    <img class="box" src="./img/deadpool.jpg">
+<form action="" method="post">
+    <!-- Los input pueden ser de tipo:
+    text
+    passowrd 
+    text-area
+    number  -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre">
+    <br>
+    <label for="edad">Edad:</label>
+    <input type="text" name="edad">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email">
+    <br>
+    <label for="pass">password: </label>
+    <input type="password" name="pass"> 
+    <br>
+    <label for="descri">Descripcion:</label>
+    <textarea type="area" name="descri" id="" cols="30" rows="10">ingrese su descripcion</textarea>
+    <br>
+    <label for="numero">Edad</label>
+    <input type="number" name="edad">
+    <br>
+    <br>
+    <input type="submit" value="Enviar Formulario">
+    <br>
+    <input type="reset" value="Reestablecer los valores">
+<br>
+<form id="contact" name="contact" accept-charset="utf-8" action="https://formspree.io/f/xrgwqevr" method="POST">
+<label for="nombre">Nombre:</label>
+<input type="text" name="nombre">
+<br><br>
+<label for="descripcion">Descripcion:</label>
+<textarea name="descripcion"></textarea>
+<input type="submit">
+</form>
+
+<!-- Eleccion de opciones -->
+<div>Opcion 1</div>
+ <input type="radio" name="Pregunta 1" value="opcionuno">
+    <div>Opcion 2</div>
+     <input type="radio" name="Pregunta 2" value="opciondos">
+
+
+    
+</form>
+
+    <!-- Lista desordenada -->
+    <ul>
+        <li><a href="#seccion">Inicio</a> </li>
+        <li>Contacto</li>
+        <li>Direccion</li>
+    </ul>
+<!-- Listas de definicion -->
+<dl>
+    <dt>Tu nombre</dt>
+    <dd>Lucas</dd>
+</dl>
+<!-- Listas ordenadas -->
+<ol>
+    <li>Lucas</li>
+    <li>Guarnieri</li>
+</ol>
+
+
+    <!-- Imagen con ruta absoluta -->
+<img src="https://www.lavoz.com.ar/resizer/3VRtmbxWn-ualOOO46SodGRcomc=/980x640/smart/filters:quality(75):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/YJG7IIAOTVCFDL2JASPD5Z4AQA.jpg" alt="">
+
+<!-- Imagen con ruta relativa -->
+<img src="./img/deadpool.jpg" alt="relativa">
+
+<!-- Los formularios nos permiten a los usuarios la introduccion de datos que generalmente se envian a un servidor webpo a un archivo para su procesamiento y almacenamiento -->
+<!-- <form></form> -->
+
+<!-- Enlaces: los enlaces permiten referenciar secciones de una misma pagina. Etiqueta <a> junto con el atributo href</a> -->
+
+<a href="#seccion"></a>
+
+<section id="seccion">
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id minima error neque. Error nulla distinctio ab minus iure, quam obcaecati veritatis sapiente! Iusto vero velit qui quisquam deleniti quae corporis.
+    </p>
+</section>
+
+</body>
+</html>
